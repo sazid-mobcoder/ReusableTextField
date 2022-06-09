@@ -65,7 +65,8 @@ public class CustomTextField: UIView {
     }
     
     private func createViews() {
-        Bundle.main.loadNibNamed("CustomTextField", owner: self, options: nil)
+//        Bundle.main.loadNibNamed("CustomTextField", owner: self, options: nil)
+        Bundle.module.loadNibNamed("CustomTextField", owner: self, options: nil)
         addSubview(self.contentView)
         self.contentView.frame = self.bounds
         self.contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
