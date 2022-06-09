@@ -86,7 +86,7 @@ public class CustomTextField: UIView {
         btnSecureTextEntry.isHidden = !self.isSecureEntry
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
     }
     
